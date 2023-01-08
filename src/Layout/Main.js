@@ -6,8 +6,10 @@ import Navbar from '../Shared/Navbar/Navbar'
 function Main() {
     return (
         <>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className='max-w-screen-xl mx-auto px-4'>
+                <Navbar></Navbar>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </>
     )

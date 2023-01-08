@@ -1,8 +1,17 @@
 import React from 'react'
+import About from './About'
+import Contact from './Contact'
+import Hero from './Hero'
+import SkillEducation from './SkillEducation'
 
 function Home() {
     return (
-        <div>Home</div>
+        <>
+            <Hero></Hero>
+            <About></About>
+            <SkillEducation></SkillEducation>
+            <Contact></Contact>
+        </>
     )
 }
 

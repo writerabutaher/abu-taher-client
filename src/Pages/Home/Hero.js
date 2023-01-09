@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Typewriter } from 'react-simple-typewriter';
 import profile from '../../Assets/profile.png';
 
@@ -25,12 +24,29 @@ function Hero() {
                         />
                     </h1>
                     <p className='text-gray-600 text-sm md:text-base'>I’m Abu Taher. I’m in class 12. Recently I finished my web development course in Programming Hero. I learned all my skills very discipline way. I have done some projects which were given to me by Programming Hero. I build those projects with MERN.</p>
-                    <a href=''>
-                        <Link to='/contact'
-                            class="inline-block rounded-full border border-pink-600 bg-pink-600 px-10 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-pink-600 focus:outline-none focus:ring active:text-pink-500">
-                            Contact
-                        </Link>
-                    </a>
+                    <div>
+                        <a
+                            className="inline-flex items-center rounded-full border border-pink-600 bg-pink-600 px-8 py-3 text-white hover:bg-transparent hover:text-pink-600 focus:outline-none focus:ring active:text-pink-500"
+                            href="https://drive.google.com/file/d/1chhVtIsrpYDgIYB-Ta9C1PjnTHijrBkk/view?usp=sharing" target={'_blank'}
+                        >
+                            <span className="text-sm font-medium"> Resume </span>
+
+                            <svg
+                                className="ml-3 h-5 w-5"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </>

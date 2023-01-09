@@ -7,7 +7,7 @@ function Navbar() {
     const navItems =
         <>
             <button>
-                <Link to='/home'
+                <Link to='/'
                     className="relative font-medium text-pink-600 before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-pink-600 before:transition hover:before:scale-x-100">
                     Home
                 </Link>
@@ -25,7 +25,7 @@ function Navbar() {
                 </a>
             </button>
             <button>
-                <a href='#Testimonial'
+                <a href='#testimonial'
                     className="relative font-medium text-pink-600 before:absolute before:-bottom-1 before:h-0.5 before:w-full before:scale-x-0 before:bg-pink-600 before:transition hover:before:scale-x-100">
                     Testimonial
                 </a>

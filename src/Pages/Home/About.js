@@ -1,6 +1,5 @@
 import React from 'react'
-import seo from '../../Assets/dazzle-line-seo-website-optimization.gif';
-import laptop from '../../Assets/casual-life-3d-young-man-and-woman-sitting-in-front-of-laptop.png';
+import developer from '../../Assets/undraw_Programming.png';
 
 function About() {
     return (
@@ -10,7 +9,7 @@ function About() {
             </div>
             <div className='md:flex justify-between items-center'>
                 <div className='md:w-1/2 flex justify-center'>
-                    <img className='w-[30rem]' src={laptop} alt="" />
+                    <img className='w-[40rem]' src={developer} alt="" />
                 </div>
                 <div className='md:w-1/2'>
                     <div>
